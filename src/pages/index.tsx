@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-
+``
 export default function Home({data}:any) {
   
   return (
@@ -21,7 +21,7 @@ export default function Home({data}:any) {
 
 export const getStaticProps=async ()=>{
 
-  const data=await fetch('https://660d0e4e3a0766e85dbf6ade.mockapi.io/api/testitem/products');
+  const data=await fetch('https://660d0e4e3a0766e85dbf6ade.mockapi.io/api/testtem/products');
   const posts= await data.json()
 
   return {
